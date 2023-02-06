@@ -8,11 +8,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <div>
-      <header><h1> Dominic Graziano's Labs for INST377</h1></header>
-      <div>
-        <div><h3>Album Names</h3></div>
+  <div class = 'wrapper'>
+      <header class = 'header'><h1> Dominic Graziano's Labs for INST377</h1></header>
+      <div class = 'container'>
+        <div class = 'left_section box'><h3>Album Names</h3>
         <ol>
           <li>good kid, m.A.A.d city - Kendrick Lamar</li>
           <li>DAMN. - Kendrick Lamar</li>
@@ -20,25 +19,18 @@
           <li>Graduation - Kanye West</li>
           <li>Attack on Titan Original Soundtrack - Hiroyuki Sawano</li>
         </ol>
-
-        <div><h3>Image Carousel</h3></div>
-         <img src = 'images/images/mochi.gif' alt = 'gif image'>
-         <img src = 'images/images/mochi.jpg' alt = 'jpg image'>
-         <img src = 'images/images/mochi.png' alt = 'png image'>
-         <img src = 'images/images/mochi.svg' alt = 'svg image'>
-         <div><p> Description: The images above are in gif, jpg, png, and svg format. </p></div>
-      </div>
+        </div>
+        <div>
+            <div class= 'right_section box'><h3 >Image Carousel</h3>
+            <img src = 'images/images/mochi.gif' alt = 'animated rice ball'>
+            <img src = 'images/images/mochi.jpg' alt = 'rice ball with bubble'>
+            <img src = 'images/images/mochi.png' alt = 'rice ball'>
+            <img src = 'images/images/mochi.svg' alt = 'rice ball with dots' width = 150 height = 150>
+            <div><p> Description: Rice ball 1- animated, Rice ball 2- with bubble, Rice ball 3- normal, Rice ball 4- with dots and lines </p></div>
+        </div>
+        
     </div>
   </div>
-  <footer> <p> Domgraz <a href="http://github.com/Domgraz" target="_blank" rel="noopener noreferrer">UMD INST377 Github</a></p></footer>
+  <footer class = 'footer'> <p> Domgraz <a href="http://github.com/Domgraz" target="_blank" rel="noopener noreferrer">UMD INST377 Github</a></p></footer>
 </body>
 </html>
-
-Hook it up to CSS by including style.css in the <head> tag
-
-Then add CSS class names to your HTML to make it look like the lab pictures.
-For example: <div class="selector">
-
-You should not need to edit the CSS to do this, only the HTML.
-
-Don't forget to add an actual set of image descriptions to your image carousel.
