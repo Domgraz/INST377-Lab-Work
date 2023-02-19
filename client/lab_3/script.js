@@ -40,6 +40,11 @@ function moveToNextSlide() {
 }
 
 function moveToPrevSlide() {
+  if(slidePosition === totalSlides - 1){
+    slidePositon = 0;
+  }else{
+    slidePositon -= 1;
+  }
   // add your code in here for when you click the "prev" button
   /*
     add an if statement here that checks
