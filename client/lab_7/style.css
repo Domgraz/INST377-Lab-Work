@@ -62,7 +62,13 @@
     - like this: <div class="wrapper">
     - note that the period vanishes there!
   */
+  .hidden {
+    display: none;
+  }
   
+  .visible {
+    display: block;
+  }
   
   .wrapper {
     min-height: 100vh;
